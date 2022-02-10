@@ -1,4 +1,4 @@
-package ex01;
+package ex02;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 // @Configuration 설정 클래스는 자동으로 찾지 못함
 // @SpringBootConfiguration를 붙여야함(MyApplication)
 @SpringBootTest
-public class MyApplicationTest02 {
+public class MyApplicationTest {
 
 	@Autowired
 	private MyComponent myComponent;
